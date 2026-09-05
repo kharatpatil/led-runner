@@ -1,36 +1,28 @@
 {
   "name": "LED Runner",
   "short_name": "LED R",
-  "description": "A customizable scrolling LED-style marquee. Enter your own text, choose a font, size, color, and speed, and display scrolling text like an electronic LED sign. Includes live controls, LED-style fonts, glow effect, play/pause, reset, fullscreen, smooth animation, and responsive design.",
-  "start_url": "./",
-  "scope": "./",
-  "id": "./",
+  "description": "A customizable scrolling LED-style marquee with live controls for text, font, size, color, speed, glow, fullscreen, play and pause.",
+  "start_url": "/led-runner/",
+  "scope": "/led-runner/",
+  "id": "/led-runner/",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone"
-  ],
   "orientation": "any",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "lang": "en",
   "dir": "ltr",
-  "categories": [
-    "design",
-    "graphics",
-    "multimedia",
-    "utilities"
-  ],
   "icons": [
     {
-      "src": "./led%20r.jpg",
+      "src": "/led-runner/icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "./led%20r.jpg",
+      "src": "/led-runner/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
