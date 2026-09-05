@@ -56,6 +56,4 @@ Available in four versions — pick whichever fits your setup:
 - Adjustable speed
 - Full-screen / full-window display
 
-## A note on testing
 
-The Java and PHP versions couldn't be compiled/run inside this working environment (no `javac` or PHP interpreter available here due to sandbox/network restrictions), so those two were verified through careful manual code review and brace/syntax balance checks rather than an actual execution. The Python and HTML versions were checked more directly. If you hit any errors running Java or PHP, share the message and it can be fixed quickly.
