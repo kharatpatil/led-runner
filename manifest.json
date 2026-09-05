@@ -1,49 +1,36 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "led runner",
-  "orientation": "any",
-  "scope": "/",
+  "name": "LED Runner",
   "short_name": "LED R",
-  "start_url": "//kharatpatil.github.io/led-runner/",
-  "theme_color": "#ffffff",
-  "id": "led runner",
-  "description": "A customizable scrolling LED-style marquee. Enter your own text, pick a font, size, color, and speed, and it scrolls across the screen like an electronic sign. just open, no installs, no server needed, Live control panel on the left, live preview on the right, updates instantly as you type or drag sliders\nIncludes LED/pixel-style Google Fonts (VT323, Share Tech Mono) alongside standard fonts. Extra features: glow effect toggle for an authentic LED-sign look, Play/Pause, Reset, and a Fullscreen button for using it as an actual laptop-screen size, Smooth animation, fully responsive to window",
-  "lang": "en",
+  "description": "A customizable scrolling LED-style marquee. Enter your own text, choose a font, size, color, and speed, and display scrolling text like an electronic LED sign. Includes live controls, LED-style fonts, glow effect, play/pause, reset, fullscreen, smooth animation, and responsive design.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
   "display_override": [
-    "window-controls-overlay"
+    "window-controls-overlay",
+    "standalone"
   ],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "en",
+  "dir": "ltr",
   "categories": [
     "design",
-    "developer",
-    "developer tools",
-    "development",
-    "events",
-    "fashion",
-    "graphics &amp; design",
-    "lifestyle",
+    "graphics",
     "multimedia",
-    "multimedia design",
-    "navigation",
-    "personalization",
-    "productivity",
-    "reference",
-    "social",
-    "social networking",
-    "utilities",
-    "video"
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./led%20r.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "./led%20r.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
   ]
-"icons": [
-  {
-    "src": "./led r.jpg",
-    "sizes": "192x192",
-    "type": "image/jpg"
-  },
-  {
-    "src": "./led r.jpg",
-    "sizes": "512x512",
-    "type": "image/jpg"
-  }
-]
 }
