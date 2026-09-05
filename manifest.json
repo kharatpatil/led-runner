@@ -34,4 +34,16 @@
     "utilities",
     "video"
   ]
+"icons": [
+  {
+    "src": "./led r.jpg",
+    "sizes": "192x192",
+    "type": "image/jpg"
+  },
+  {
+    "src": "./led r.jpg",
+    "sizes": "512x512",
+    "type": "image/jpg"
+  }
+]
 }
