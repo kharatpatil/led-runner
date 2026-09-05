@@ -11,18 +11,50 @@
   "theme_color": "#ffffff",
   "lang": "en",
   "dir": "ltr",
+
   "icons": [
     {
-      "src": "/led-runner/icon-192.png",
+      "src": "/led-runner/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/led-runner/icon-512.png",
+      "src": "/led-runner/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/led-runner/screenshots/screenshot1.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "LED Runner working screen"
+    },
+    {
+      "src": "/led-runner/screenshots/screenshot2.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "LED Runner sample working screen"
+    },
+    {
+      "src": "/led-runner/screenshots/screenshots3.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "LED Runner fullscreen button"
+    },
+    {
+      "src": "/led-runner/screenshots/screenshot4.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "LED Runner edit text field"
     }
   ]
 }
